@@ -1,8 +1,12 @@
 import React from 'react';
+import {Route, Routes} from 'react-router-dom';
+import Home from './Home'
 
 const App: React.FC = () => {
   return (
-    <h1>Hello world</h1>
+    <Routes>
+      <Route path="/" element={<Home />}></Route>
+    </Routes>
   );
 };
 

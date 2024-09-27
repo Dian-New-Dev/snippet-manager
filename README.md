@@ -86,4 +86,14 @@ A aplicação se propõe a fornecer um espaço para a submissão de snippets de 
 4) Commit inicial
 5) Instalei react-router-dom
 6) Importei Browser Router no main.tsx e envolvi o <App /> em <Router></Router>.
-7) Commit
+7) Commit: instalei react-router-dom
+8) Configurei App.tsx para usar rotas e acessar a Página Inicial (cujo arquivo tsx criei em pages)
+9) Rodei npm run dev para ver se o texto teste no componente Home está renderizando. Sucesso.
+10) Commit: tudo pronto para começar.
+
+## Aprendizado
+
+- npm run dev deve ser rodado na pasta raiz, pois é ali que o arquivo package.json fica. 
+- para aplicativos e sites de página única, deixar o App.tsx junto com os demais arquivos em src basta.
+- para sites e aplicativos com múltiplas páginas, o App.tsx deve ser movido para uma pasta "pages" junto os arquivos individuais de cada página.
+- a opção por um web app de várias páginas exige a instalação de react-router-dom na pagina raiz e a configuração do mesmo em App.tsx;
