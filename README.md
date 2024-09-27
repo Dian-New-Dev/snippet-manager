@@ -74,3 +74,16 @@ A aplicação se propõe a fornecer um espaço para a submissão de snippets de 
 - Conectar front com back;
 
 5) Testtar e iterar
+
+## Log de desenvolvimento
+
+1) Criei projeto React + Typescript com Vite
+2) Adicionei e configurei Tailwind
+3) Remanejei a estrutura de pastas
+- Criei as pastas components, pages, services e store dentro de src
+- Movi o arquivo App.tsx para a pasta pages. Como pretendo um aplicativo com várias páginas, essa alteração se tornou necessária.
+- Atualizei a localização de app.tsx no main.tsx
+4) Commit inicial
+5) Instalei react-router-dom
+6) Importei Browser Router no main.tsx e envolvi o <App /> em <Router></Router>.
+7) Commit
